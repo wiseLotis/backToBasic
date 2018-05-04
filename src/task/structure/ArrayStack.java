@@ -14,7 +14,7 @@ public class ArrayStack implements Stack{
 			System.out.println(mystack.toString()); //[1, null, null, null]
 			mystack.push("2");
 			mystack.push("3");
-			mystack.push("4");
+			mystack.push("4");  
 			System.out.println(mystack.toString()); //[1, null, null, null]
 			mystack.push("5"); //your stack is already full.
 
